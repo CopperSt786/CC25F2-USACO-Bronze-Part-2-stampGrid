@@ -1,4 +1,5 @@
-Stamp Grid
+**Stamp Grid**
+
 [ Memory: 64 MB, CPU: 1 sec ]
 
 A stamp painting is a black and white painting on an N×N
@@ -34,7 +35,6 @@ Each test case starts with an integer N
  lines, each containing a string of *s and .s, representing Bessie's desired stamp painting. The next line contains K
  and is followed by K
  lines, each containing a string of *s and .s, representing Farmer John's stamp.
-
 Consecutive test cases are separated by newlines.
 
 OUTPUT FORMAT:
@@ -43,69 +43,114 @@ For each test case, output "YES" or "NO" on separate lines.
 
 
 SAMPLE INPUT:
+    
+    4
+    
+    2
+    
+    **
+    
+    *.
+    
+    1
+    
+    *
+    
+    3
+    
+    .**
+    
+    .**
+    
+    ***
+    
+    2
+    
+    .*
+    
+    **
+    
+    3
+    
+    ...
+    
+    .*.
+    
+    ...
+    
+    3
+    
+    .*.
+    
+    ...
+    
+    ...
+    
+    3
+    
+    **.
+    
+    .**
+    
+    ..*
+    
+    2
+    
+    .*
+    
+    *.
 
-4
-
-2
-**
-*.
-1
-*
-
-3
-.**
-.**
-***
-2
-.*
-**
-
-3
-...
-.*.
-...
-3
-.*.
-...
-...
-
-3
-**.
-.**
-..*
-2
-.*
-*.
+<br>
 SAMPLE OUTPUT:
+    
+    YES
+    
+    YES
+    
+    NO
+    
+    YES
 
-YES
-YES
-NO
-YES
+
+
+<br>
+
 In the first test case, Bessie can perform the following sequence of stampings:
-
-Stamp at (1,1)
-Stamp at (1,2)
-Stamp at (2,1)
+    
+    Stamp at (1,1)
+    
+    Stamp at (1,2)
+    
+    Stamp at (2,1)
+    
+<br><br>
 In the second test case, Bessie can perform the following sequence of stampings:
 
-Stamp at (2,2)
-Stamp at (2,1)
-Rotate 90∘
-Rotate 90∘
-Stamp at (1,2)
-In the third test case, it is impossible to paint the middle cell.
-
+    Stamp at (2,2)
+    
+    Stamp at (2,1)
+    
+    Rotate 90∘
+    
+    Rotate 90∘
+    
+    Stamp at (1,2)
+   <br><br>
+   In the third test case, it is impossible to paint the middle cell.
+   
+   <br>
 In the fourth test case, Bessie can perform the following sequence of stampings:
 
-Rotate 90∘
-Stamp at (1,1)
-Stamp at (1,2)
-Stamp at (2,2)
+    Rotate 90∘
 
-Problem credits: Benjamin Qi and Claire Zhang
-
-
-MODE: normal
-Language 
-python3
+    Stamp at (1,1)
+    
+    Stamp at (1,2)
+    
+    Stamp at (2,2)
+   <br>
+   <br>
+   <br>
+Problem credits: Benjamin Qi and Claire Zhang<br>
+MODE: normal<br>
+Language: python3<br>
